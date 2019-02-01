@@ -3,3 +3,5 @@
 Using Flask (python 3), HTML, CSS and Heroku!
 
 ## You can check it out [here](https://fibonacci-flask.herokuapp.com/)!
+
+![Preview](https://i.imgur.com/XJgnK0H.png)

@@ -1,11 +1,8 @@
-def fb(N):
-    if N == 1 or N == 2:
-        return 1
-    
-    bottom_up = [None] * (N + 1)
-    bottom_up[1] = 1
-    bottom_up[2] = 1
-    for i in range(3, N + 1):
-        bottom_up[i] = bottom_up[i - 1] + bottom_up[i - 2]
-    
-    return bottom_up[N]
+#program to print fibonacci number.
+def fibonacci(n):
+    if n == 0 or n == 1:
+        return n
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+n = int(input())
+print(fibonacci(n))
